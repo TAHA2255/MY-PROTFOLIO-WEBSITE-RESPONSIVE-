@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: row;
+    /* background-color: green; */
+}
+
+.navbar {
+    position: absolute;
+
+    background-color: #6a5b5b;
+    height: 100vh;
+    width: 60vw;
+}
+.navbartogg{
+    transform : translate(-410px, 0px);  
+
+        
+}
+
+.main {
+    /* background-color: aquamarine; */
+    height: 69vh;
+    /* to be changed */
+    margin-top: 78px; 
+    margin-left: 5px;
+   
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.pic img {
+    height: 50vh;
+    bottom: 60px;
+    border: 2px solid white;
+    border-radius: 341px
+
+}
+
+nav{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50px; */
+    
+}
+
+nav ul li {
+    list-style: none;
+    margin: 45px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.myinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.abinfo{
+    width: 162vh;
+}
+
+.mar {
+    margin-bottom: 17px;
+    overflow-wrap: break-word;
+
+}
+
+.first {
+    font-family:  sans-serif;
+    font-size: 3em;
+    letter-spacing: 3px;
+    /* margin-left: 25px; */
+}
+
+.second {
+    /* font-family: 'Roboto',sans-serif;  */
+    font-size: 50px;
+    font-family:  sans-serif;
+    font-weight: bold;
+    /* margin-left: 25px; */
+}
+
+.third {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fourth {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn button {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(19, 77, 19);
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.btn button:hover {
+    background-color: white;
+    color: rgb(19, 77, 19);
+
+}
+
+/* PROJECTS PAGE STYLE */
+
+
+
+.heading {
+    font-family: serif;
+    font-size: 1.5em;
+    /* color: rgb(149 140 140); */
+    color: rgb(13 177 255);
+    /* margin-left: -142px; */
+}
+.mainpro{
+    margin-top: 93px;
+}
+.heading3 {
+    font-family: serif;
+    font-size: 1.5em;
+    color: rgb(185 52 52);
+    margin-left: 10px;
+    word-wrap: break-word;
+}
+.text{
+    font-family: sans-serif;
+    margin-top: 25px;
+    font-size: 1em;
+    word-wrap: break-word;
+}.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 30px;
+}
+.mails a{
+     text-decoration: underline;
+     margin-left: 15px;
+     font-size: 20px;
+     color: green;
+     word-wrap: break-word;
+
+}
+.mail_call{
+    text-decoration: underline;
+    margin-left: 15px;
+    font-size: 20px;
+    color: green;
+
+}
+.heading2{
+    font-family: serif;
+    font-size: 42px;
+    color: saddlebrown;
+    margin-left: 10px;
+    
+    text-decoration: wavy;
+    text-decoration: underline;
+ }
+.about{
+    margin-left: 200px;
+
+} 
+.bg-about{
+    /* background-image: url("notebook-natural-laptop-macbook.jpg"); */
+    background-image: url("https://wallpaperaccess.com/full/1826443.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100vh;
+
+}
+.bg-home{
+    /* background-image: url("notebook-natural-laptop-macbook.jpg"); */
+    background-image: url("https://i.pinimg.com/736x/07/4e/a1/074ea10d689f8e899dc9814495028a15--material-design-hd-wallpaper.jpg");
+    background-position: center center;
+    /* background-size: cover; */
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-repeat: no-repeat; */
+
+} 
+.icons img{
+    margin: 40px 10px;
+    height: 60px;
+    width: 60px;
+}
+.proimg{
+    background-image: url("https://wallpaperaccess.com/full/346767.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contimg{
+    background-image: url("grey.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+
+}
+@media screen and (max-width:768px) {
+
+    .pic img{
+        margin-top: -32px;
+        margin-left: -62px;
+    }
+    
+}
+@media (max-width:640px){
+    .navbar{
+        height:234vh;
+    }
+    .pic img{
+        margin-left: -70px;
+    }
+}
+@media (max-width:600px) {
+    .main{
+        margin-top: 214px;
+    }
+    .navbar{
+        position: absolute;
+    }
+    .second{
+        margin-left: -271px;
+    }
+    .btn button{
+        margin-left: -190px;
+    }
+}
+
+@media (min-width:600px) and (max-width:800px) {
+    .main{
+        margin-top: 255px;
+    }
+    
+}
+@media (max-width:800px) {
+    .abmain{
+        margin-top: 59px;
+        margin-left: 0px;
+    }
+    
+}
+@media (max-width:495px) {
+    .abul{
+        margin-left: -8px;
+    }
+    .conul{
+        margin-left: -12px;
+    }
+    
+}
+@media (max-width:790px) {
+    .info{
+        margin-top:-162px;
+    }
+
+}
+
+
+.hamburger{
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  .contacts{
+    font-size: 16px;
+  }
